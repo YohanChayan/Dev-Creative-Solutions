@@ -17,4 +17,6 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-Route::view('/', 'welcome');
+Route::view('/', 'welcome')->name('home');
+Route::view('/apps', 'aplicaciones-web')->name('aplicacionesWeb');
+Route::view('/services', 'servicios')->name('servicios');
