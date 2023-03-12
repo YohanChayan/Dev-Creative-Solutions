@@ -11,12 +11,27 @@
 
 </head>
 
-<body class="bg-secondary">
+<body class="bg-my-color">
 
     @include('layouts.navbar')
 
-    <div class="container-fluid bg-secondary min-vh-100 vh-auto">
+    <div class="container-fluid bg-my-color min-vh-100 vh-auto">
         @yield('content')
+    </div>
+
+    <div class="row bg-dark">
+        <div class="col-lg-3">
+            Footer
+        </div>
+        <div class="col-lg-3">
+            Footer
+        </div>
+        <div class="col-lg-3">
+            Footer
+        </div>
+        <div class="col-lg-3">
+            Footer
+        </div>
     </div>
 
 

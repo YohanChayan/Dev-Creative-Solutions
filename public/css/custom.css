@@ -1,3 +1,34 @@
+/* background-image */
+
+.bg-my-color{
+  background-color: #072028;
+}
+
+/* Set the background color of the accordion button */
+button.accordion-button {
+  background-color: #1C2629;
+}
+/* Set the background color of the active accordion button */
+button.accordion-button:not(.collapsed) {
+  background-color: #525552;
+}
+
+.accordion-item {
+  border: none;
+}
+
+
+/* Applications web view */
+
+/* .accordion-content-bg-color{
+  background-color: #282012;
+} */
+
+/* .accordion-content-text-color{
+  color: #525552;
+} */
+
+
 /* Product img welcome.blade */
 .product-device {
     position: absolute;
@@ -37,3 +68,4 @@
     /* border-radius: 15%; */
     border-radius: 15% 30%;
   }
+/*  */
