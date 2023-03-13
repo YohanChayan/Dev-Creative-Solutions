@@ -243,7 +243,7 @@
 
                                 {{-- demo tramites --}}
                                 <div class="col-sm-11 col-lg-8 text-center m-2 h-100">
-                                    <img class="" src="{{ asset('img/demo_tramites.gif') }}" width="100%" height="100%" alt="Tramites">
+                                    <img class="" src="{{ asset('img/demo_barraResumen.gif') }}" width="100%" height="100%" alt="Tramites">
                                 </div>
 
 
