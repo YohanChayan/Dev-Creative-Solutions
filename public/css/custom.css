@@ -13,6 +13,14 @@ button.accordion-button:not(.collapsed) {
   background-color: #525552;
 }
 
+.text-special-light{
+  color: #c7c6c5;
+}
+
+.text-special-orange{
+  color:  #ED702D;
+}
+
 .accordion-item {
   border: none;
 }
